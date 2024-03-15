@@ -11316,3 +11316,19 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+
+.destaque {
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  text-align: center;
+  line-height: 100px;
+}
+
+/* Estilo do efeito quando o mouse passa por cima */
+.destaque:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
