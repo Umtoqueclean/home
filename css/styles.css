@@ -8091,7 +8091,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #fff !important;
 }
 
 .text-black-50 {
@@ -10952,6 +10952,8 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  width: 100%;
+
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -10986,6 +10988,11 @@ header.masthead .masthead-heading {
     line-height: 4.5rem;
     margin-bottom: 4rem;
     color: var(--bs-yellow);
+  }
+}
+@media (max-width: 576px) {
+  header.masthead {
+    background-image: url("../assets/img/header-bg-sm.png");
   }
 }
 #portfolio .portfolio-item {
@@ -11317,14 +11324,16 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-
-.destaque {
+.wthas {
   width: 100%;
-  border: 2px solid #ccc;
+  border: 2px solid #fff;
   border-radius: 10px;
-  transition: transform 0.3s ease;
   text-align: center;
   line-height: 100px;
+}
+
+.destaque {
+  transition: transform 0.3s ease;
 }
 
 /* Estilo do efeito quando o mouse passa por cima */
